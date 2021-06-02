@@ -18,7 +18,6 @@ public class EmployeeServiceImpl implements IEmployeeService {
 	// display list of all employee
 	@Override
 	public List<Employee> displayAllEmployee() {
-		System.out.println("start method to display employee list")
 		return iEmployeeDAO.findAll();
 	}
 
